@@ -1,0 +1,14 @@
+{
+  "name": "hxReact-material-ui",
+  "url": "https://github.com/belliture/hxReact-material-ui",
+  "license": "MIT",
+  "tags": ["js", "web", "react"],
+  "description": "Haxe extern for Material UI",
+  "version": "0.1.0",
+  "classPath": "src",
+  "releasenote": "Extern for Material UI",
+  "contributors": ["belliture"],
+  "dependencies": {
+    "hxReact": ""
+  }
+}
