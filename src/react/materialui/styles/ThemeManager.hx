@@ -4,7 +4,7 @@ import react.materialui.styles.Spacing;
 
 @:native("require('material-ui').Styles.ThemeManager")
 extern class ThemeManager {
-    public var type(default,null):ThemeTypes;
+    public var types(default,null):ThemeTypes;
     public var template(default,null):Dynamic;
     public var spacing(default,null):Spacing;
     public var contentFontFamily(default,null):String;
