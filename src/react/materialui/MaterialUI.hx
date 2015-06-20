@@ -149,19 +149,19 @@ extern class MaterialUI {
 
 extern class Mixins {
     @:native("Classable")
-    public static var classable:ReactComponentSpec;
+    public static var classable:Dynamic;
 
     @:native("ClickAwayable")
-    public static var clickawayable:ReactComponentSpec;
+    public static var clickawayable:Dynamic;
 
     @:native("WindowListenable")
-    public static var windowListenable:ReactComponentSpec;
+    public static var windowListenable:Dynamic;
 
     @:native("StylePropable")
-    public static var stylePropable:ReactComponentSpec;
+    public static var stylePropable:Dynamic;
 
     @:native("StyleResizable")
-    public static var styleResizable:ReactComponentSpec;
+    public static var styleResizable:Dynamic;
 }
 
 extern class Icons {
