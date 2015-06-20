@@ -1,8 +1,8 @@
 package react.materialui.styles;
 
 extern class Transitions {
-    public static var easeOutFunction:String;
-    public static var easeInOutFunction:String;
-    public static function easeOut(duration:String, property:String, delay:String, easeFunction:String):String;
-    public static function create(duration:String, property:String, delay:String, easeFunction:String):String;
+    public var easeOutFunction(default,null):String;
+    public var easeInOutFunction(default,null):String;
+    public function easeOut(duration:String, property:String, delay:String, easeFunction:String):String;
+    public function create(duration:String, property:String, delay:String, easeFunction:String):String;
 }

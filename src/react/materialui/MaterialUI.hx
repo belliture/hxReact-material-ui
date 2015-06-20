@@ -149,71 +149,71 @@ extern class MaterialUI {
 
 extern class Mixins {
     @:native("Classable")
-    public static var classable:Dynamic;
+    public var classable(default,null):Dynamic;
 
     @:native("ClickAwayable")
-    public static var clickawayable:Dynamic;
+    public var clickawayable(default,null):Dynamic;
 
     @:native("WindowListenable")
-    public static var windowListenable:Dynamic;
+    public var windowListenable(default,null):Dynamic;
 
     @:native("StylePropable")
-    public static var stylePropable:Dynamic;
+    public var stylePropable(default,null):Dynamic;
 
     @:native("StyleResizable")
-    public static var styleResizable:Dynamic;
+    public var styleResizable(default,null):Dynamic;
 }
 
 extern class Icons {
     @:native("NavigationMenu")
-    public static var navigationMenu:ReactClass;
+    public var navigationMenu(default,null):ReactClass;
 
     @:native("NavigationChevronLeft")
-    public static var navigationChevronLeft:ReactClass;
+    public var navigationChevronLeft(default,null):ReactClass;
 
     @:native("NavigationChevronRight")
-    public static var navigationChevronRight:ReactClass;
+    public var navigationChevronRight(default,null):ReactClass;
 }
 
 extern class Styles {
     @:native("AutoPrefix")
-    public static var autoPrefix:AutoPrefix;
+    public var autoPrefix(default,null):AutoPrefix;
 
     @:native("Colors")
-    public static var colors:Colors;
+    public var colors(default,null):Colors;
 
     @:native("Spacing")
-    public static var spacing:Spacing;
+    public var spacing(default,null):Spacing;
 
     @:native("Transitions")
-    public static var transitions:Transitions;
+    public var transitions(default,null):Transitions;
 
     @:native("Typography")
-    public static var typography:Typography;
+    public var typography(default,null):Typography;
 }
 
 extern class Utils {
     @:native("CssEvent")
-    public static var cssEvent:Dynamic;
+    public var cssEvent(default,null):Dynamic;
 
     @:native("Dom")
-    public static var dom:Dynamic;
+    public var dom(default,null):Dynamic;
 
     @:native("Events")
-    public static var events:Dynamic;
+    public var events(default,null):Dynamic;
 
     @:native("KeyCode")
-    public static var keyCode:Dynamic;
+    public var keyCode(default,null):Dynamic;
 
     @:native("KeyLine")
-    public static var keyLine:Dynamic;
+    public var keyLine(default,null):Dynamic;
 
     @:native("ColorManipulator")
-    public static var colorManipulator:Dynamic;
+    public var colorManipulator(default,null):Dynamic;
 
     @:native("Extend")
-    public static var extend:Dynamic;
+    public var extend(default,null):Dynamic;
 
     @:native("UniqueId")
-    public static var uniqueId:Dynamic;
+    public var uniqueId(default,null):Dynamic;
 }

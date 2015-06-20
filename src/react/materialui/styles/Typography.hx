@@ -1,17 +1,17 @@
 package react.materialui.styles;
 
 extern class Typography {
-    public static var textFullBlack:String;
-    public static var textDarkBlack:String;
-    public static var textLightBlack:String;
-    public static var textMinBlack:String;
-    public static var textFullWhite:String;
-    public static var textDarkWhite:String;
-    public static var textLightWhite:String;
+    public var textFullBlack(default,null):String;
+    public var textDarkBlack(default,null):String;
+    public var textLightBlack(default,null):String;
+    public var textMinBlack(default,null):String;
+    public var textFullWhite(default,null):String;
+    public var textDarkWhite(default,null):String;
+    public var textLightWhite(default,null):String;
 
-    public static var fontWeightLight:Int;
-    public static var fontWeightNormal:Int;
-    public static var fontWeightMedium:Int;
+    public var fontWeightLight(default,null):Int;
+    public var fontWeightNormal(default,null):Int;
+    public var fontWeightMedium(default,null):Int;
 
-    public static var fontStyleButtonFontSize:Int;
+    public var fontStyleButtonFontSize(default,null):Int;
 }

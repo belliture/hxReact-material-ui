@@ -24,8 +24,8 @@ extern class ThemeManager {
 
 extern class ThemeTypes {
     @:native("LIGHT")
-    public static var light:Dynamic;
+    public var light(default,null):Dynamic;
 
     @:native("DARK")
-    public static var dark:Dynamic;
+    public var dark(default,null):Dynamic;
 }

@@ -1,16 +1,16 @@
 package react.materialui.styles;
 
 extern class Spacing {
-    public static var iconSize:Int;
+    public var iconSize(default,null):Int;
 
-    public static var desktopGutter:Int;
-    public static var desktopGutterMore:Int;
-    public static var desktopGutterLess:Int;
-    public static var desktopGutterMini:Int;
-    public static var desktopKeylineIncrement:Int;
-    public static var desktopDropDownMenuItemHeight:Int;
-    public static var desktopDropDownMenuFontSize:Int;
-    public static var desktopLeftNavMenuItemHeight:Int;
-    public static var desktopSubheaderHeight:Int;
-    public static var desktopToolbarHeight:Int;
+    public var desktopGutter(default,null):Int;
+    public var desktopGutterMore(default,null):Int;
+    public var desktopGutterLess(default,null):Int;
+    public var desktopGutterMini(default,null):Int;
+    public var desktopKeylineIncrement(default,null):Int;
+    public var desktopDropDownMenuItemHeight(default,null):Int;
+    public var desktopDropDownMenuFontSize(default,null):Int;
+    public var desktopLeftNavMenuItemHeight(default,null):Int;
+    public var desktopSubheaderHeight(default,null):Int;
+    public var desktopToolbarHeight(default,null):Int;
 }
